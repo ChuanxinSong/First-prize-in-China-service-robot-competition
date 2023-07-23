@@ -8,3 +8,5 @@
 证书、比赛规则、现场视频可见于文件夹Appendix
 
 [医疗规定动作一等奖—宋传鑫，曹亚楠，崔宗源.pdf](https://github.com/ChuanxinSong/---/files/12137595/default.pdf)
+
+**现场视频：**
