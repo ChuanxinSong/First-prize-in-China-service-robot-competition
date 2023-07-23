@@ -1,0 +1,105 @@
+JLINK占用的口：
+PB4
+PA15
+PA13
+PA14
+PB3
+PD3
+  电机
+上控制板
+A1#define zuoqianr PGout(10)	
+B1#define zuoqianw PGout(12)	 
+A2#define youqianr PGout(9)
+B2#define youqianw PGout(11)
+下控制板
+A1#define zuohour PCout(0)
+B1#define zuohouw PCout(1)
+A2#define youhour PCout(2)
+B2#define youhouw PCout(3)
+
+
+OLED
+#define CLK  PBout(15)
+#define MOSI PDout(10)
+#define RST  PDout(8)
+#define DC   PE14
+VCC接3.3V
+
+PWM
+上控制板
+
+P1左前//PF9 	
+P2右前//PF8    	
+下控制板
+
+P1左后//PE5 
+P2右后//PE6
+
+编码器
+右后电机
+//TIM5_CH1 ----- PA0
+//TIM5_CH2 ----- PA1
+左前电机：
+//TIM4_CH1 ----- PD12
+//TIM4_CH2 ----- PD13
+右前电机
+//TIM2_CH1 ----- PA15
+//TIM2_CH2 ----- PB3
+左后电机
+//TIM3_CH1 ----- PC6
+//TIM3_CH2 ----- PC7
+
+
+舵机
+//TIM1_CH1:PE9  //duoji1
+//TIM1_CH2:PE11  //duoji2  //5
+//
+//TIM8_CH3:PC8  4
+//TIM8_CH4:PC9   3//7.2
+
+
+模拟灰度
+前灰度:VCC接3.3v
+1：PF3
+2:PF4
+3:PF5
+4:PF6
+5:PF7
+6:PF10
+7:PA2
+8:PA3
+后模拟灰度vcc接3.3v
+1：PA4
+2: PA5
+3:PA6
+4:PA7
+5:PC4
+6:PC5
+7:PB0
+8:PB1
+数字灰度vcc接5v
+1--PF11
+2--F12
+3--F13
+4--F14
+5--F15
+6--PE7
+7:PE8
+8:PE10
+
+光电
+#define GD1 PAin(11) // 左中光电
+#define GD2 PAin(12)// 右中光电
+#define GDZ PAin(13)  //左前改为PC11
+#define GDY PAin(14)//右前光电改为PC12
+PD3
+PD4
+
+超声波
+
+Trig	PD14
+Echo	PD15
+
+陀螺仪
+B10	SCL
+B11	SDA
