@@ -9,7 +9,7 @@
 
 [医疗规定动作一等奖—宋传鑫，曹亚楠，崔宗源.pdf](https://github.com/ChuanxinSong/---/files/12137595/default.pdf)
 
-**Our video of  the game:**
+**Our video of  the Competition:**
 
 Link：https://pan.baidu.com/s/15PLXBwVbu1XnQ4IU6c4xXg 
 Password：6c0i 
